@@ -1,0 +1,35 @@
+1. Resources:
+    1. AWS Site for Certification : https://aws.amazon.com/certification/certified-solutions-architect-associate/?ch=sec&sec=rmg&d=1
+    2. Wikipedia:  https://en.wikipedia.org/wiki/Cloud_computing
+    3. About private clouds - https://aws.amazon.com/outposts/
+    4.  AWS Global Infra - https://aws.amazon.com/about-aws/global-infrastructure/
+    5. AWS Compliance Rules - https://aws.amazon.com/compliance/
+    6. Pricing details page - https://www.concurrencylabs.com/blog/choose-your-aws-region-wisely/
+    7. Free Tier Account - https://aws.amazon.com/free/
+    8. Instance type and Size details - https://aws.amazon.com/ec2/instance-types/
+    9. Best practices for the AWS tags - https://docs.aws.amazon.com/general/latest/gr/aws_tagging.html
+    10. Amazon ec2 - https://aws.amazon.com/ec2/
+    11. Install WebServer - https://www.rootusers.com/how-to-install-iis-in-windows-server-2016/
+    12. Google Docs Link - https://docs.google.com/spreadsheets/d/1Sbt7hPQ86WZLHeIZXr6JH88vqtpKbQB4huk699jwYwE/edit?usp=sharing
+
+Basic HTML file storage for IIS:
+"C:\inetpub\wwwroot\index.html"
+
+Apache Server on Linux machine:
+#!/bin/bash
+sudo yum install httpd -y
+sudo service httpd start
+sudo echo "<h1>My Website on AWS EC2 Linux</h1>" >/var/www/html/index.html
+sudo chkconfig httpd on
+
+CPU utilisation: 
+Top
+
+Utility to generate load:
+amazon-linux-extras install epel -y
+sudo yum install stress -y
+
+
+https://www.geeksforgeeks.org/basics-computer-networking/
+
+https://medium.com/@sadatnazrul/basics-of-ip-addresses-in-computer-networking-f1a4661ea85c
