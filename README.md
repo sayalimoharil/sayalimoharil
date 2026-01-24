@@ -1,6 +1,6 @@
 - 👋 Hi, I’m @sayalimoharil
 - 👀 I’m interested in learning different technologies.
-- 🌱 Passionate to learn about AI useage.
+- 🌱 Passionate to learn about AI Usage.
 
 <!---
 sayalimoharil/sayalimoharil is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
